@@ -1,0 +1,79 @@
+/* HEADER AND FOOTER */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #042940;
+  height: 15vh;
+  line-height: 15vh;
+}
+
+.imagem {
+  display: flex;
+  justify-content: center;
+  margin-left: 3vw;
+  height: 15vh;
+}
+
+.imagem img {
+  height: 14vh;
+  width: 10vw;
+}
+
+.Links {
+  font-size: 28px;
+  margin-right: 10vw;
+}
+
+.Links a {
+  text-decoration: none;
+  color: white;
+  margin-right: 60px;
+}
+
+.content {
+display: grid;
+grid-template-columns: auto auto auto;
+grid-template-rows: auto auto auto;
+height: 85vh;
+width: 100vw;
+background-color: #EEEEEE;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box a {
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+.button div {
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    background-color: #042940;
+    line-height: 50px;
+    border-radius: 2vh;
+}
+
+.button div:hover {
+    border: 1px solid #DBF227;
+    
+} 
+
+.box4 {
+    grid-area: 2 / 1 / 2 / span 3;
+}
+
+.box5 {
+grid-area: 3 / 1 / 3 / span 3;
+}
+
+/* ------------------ */
+

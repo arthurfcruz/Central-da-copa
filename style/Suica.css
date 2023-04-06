@@ -1,0 +1,47 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #042940;
+    height: 15vh;
+    line-height: 15vh;
+}
+
+.imagem {
+    display: flex;
+    justify-content: center;
+    margin-left: 3vw;
+    height: 15vh;
+}
+
+.imagem img {
+    height: 14vh;
+    width: 10vw;
+}
+
+.Links {
+    font-size: 28px;
+    margin-right: 10vw;
+}
+
+.Links a {
+    text-decoration: none;
+    color: white;
+    margin-right: 60px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    height: 85vh;
+    width: 100vw;
+}
+
+.navSelection{
+    display: grid;
+    grid-template-columns: 26vw 26vw 26vw;
+    grid-template-rows: 25vh;
+    height: 25vh;
+    width: 85vw;
+    gap: 2.33vw;
+    background-color: blue;
+}
