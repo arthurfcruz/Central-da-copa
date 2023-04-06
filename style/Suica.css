@@ -38,10 +38,9 @@
 
 .navSelection{
     display: grid;
-    grid-template-columns: 26vw 26vw 26vw;
-    grid-template-rows: 25vh;
-    height: 25vh;
-    width: 85vw;
-    gap: 2.33vw;
-    background-color: blue;
+    grid-template-columns: 28vw 28vw 28vw;
+    grid-template-rows: 28vh;
+    height: 28vh;
+    width: 90vw;
+    gap: 3vw;
 }
