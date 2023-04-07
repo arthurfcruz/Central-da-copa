@@ -31,16 +31,101 @@
 
 .content {
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
     height: 85vh;
     width: 100vw;
+    background-color: #EEEEEE;
 }
 
-.navSelection{
+.navSelection {
     display: grid;
-    grid-template-columns: 28vw 28vw 28vw;
+    grid-template-columns: 15vw 35vw 15vw;
     grid-template-rows: 28vh;
     height: 28vh;
-    width: 90vw;
-    gap: 3vw;
+    width: 80vw;
+    gap: 7.5vw;
+}
+
+/* .buttons {} */
+
+.left {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 15vw;
+    height: 28vh;
+}
+
+.right {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 15vw;
+    height: 28vh;
+}
+
+.button {
+    height: 7vh;
+    width: 12vw;
+    background-color: #042940;
+    border-radius: 2vh;
+    color: white;
+    font-size: 2.5vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+
+/* .but1 {}
+
+.but2 {} */
+
+.InfoSoccerTeam {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imagemSuica img {
+    height: 20vh;
+    width: 20vw;
+    border-radius: 2vh;
+}
+
+.optionsTeam {
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    width: 12vw;
+    height: 19vh;
+}
+
+.optionsTeam span {
+    font-size: 7vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 2.3vw;
+    margin-bottom: 1vh;
+}
+
+.butPlayers {
+    height: 5.5vh;
+    width: 100%;
+    background-color: #042940;
+    border-radius: 1.8vh;
+    color: white;
+    font-size: 2.5vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+}
+
+.qualifying {
+    height: 26vh;
+    width: 75vw;
+    background-color: white;
+    border: #D9D9D9 solid;
+    border-radius: 2vh;
+}
+
+.Oitavas{
+    margin-top: 3vh;
 }
