@@ -1,0 +1,134 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #042940;
+    height: 15vh;
+    line-height: 15vh;
+}
+
+.imagem {
+    display: flex;
+    justify-content: center;
+    margin-left: 3vw;
+    height: 15vh;
+}
+
+.imagem img {
+    height: 14vh;
+    width: 10vw;
+}
+
+.Links {
+    font-size: 28px;
+    margin-right: 10vw;
+}
+
+.Links a {
+    text-decoration: none;
+    color: white;
+    margin-right: 60px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    flex-flow: column nowrap;
+    height: 85vh;
+    width: 100vw;
+    background-color: #EEEEEE;
+}
+
+.Selecao {
+    display: grid;
+    grid-template-columns: 15vw 15vw;
+    margin-top: 1vh;
+    height: 20vh;
+    width: 30vw;
+}
+
+.imagemSuica {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    width: 15vw;
+}
+
+.NomeSelecao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    width: 15vw;
+    font-size: 6vh;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.InfoBar {
+    display: grid;
+    grid-template-columns: 65vw 35vw;
+    height: 10vh;
+    width: 100vw;
+}
+
+.position {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 15vw;
+    margin-left: 35vw;
+    font-size: 6vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.filter {
+    display: grid;
+    grid-template-columns: 17.5vw 17.5vw;
+    grid-template-rows: 3.5vh 6.5vh;
+    height: 10vh;
+    width: 35vw;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vh;
+    grid-area: 1 / 1 / 1 / span 2;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.input1 {
+    display: flex;
+    flex-flow: column wrap;
+    height: 6.5vh;
+    width: 17.5vw;
+    justify-content: center;
+    align-items: center;
+    grid-area: 2 / 1 / 2 / 2;
+}
+
+.input2 {
+    display: flex;
+    flex-flow: column wrap;
+    height: 6.5vh;
+    width: 17.5vw;
+    justify-content: center;
+    align-items: center;
+    grid-area: 2 / 2 / 2 / span 2;
+}
+
+.filter label {
+    font-size: 2.5vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.filter input {
+    width: 50%;
+    background-color: black;
+    color: white;
+    font-size: 2vh;
+    border-radius: 1vh;
+    padding-left: 0.85vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
