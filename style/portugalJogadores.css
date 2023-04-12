@@ -116,12 +116,20 @@
   flex-direction: column;
   gap: 5px;
 }
+
+.container {
+  width: 90vw;
+  height: 35vh;
+}
+.carousel-wrapper {
+  overflow-x: auto;
+}
 .carousel {
   display: flex;
-  height: 400px;
-  width: 95vw;
   align-items: center;
-  gap: 20px;
+  flex-flow: row nowrap;
+  gap: 15px;
+  width: fit-content;
 }
 
 .card {
