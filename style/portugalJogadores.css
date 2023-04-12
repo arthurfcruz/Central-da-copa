@@ -118,12 +118,20 @@
 }
 
 .container {
+  display: flex;
   width: 90vw;
   height: 35vh;
+  align-items: center;
+  justify-content: center;
 }
 .carousel-wrapper {
   overflow-x: auto;
 }
+
+.carousel-wrapper::-webkit-scrollbar {
+  display: none;
+}
+
 .carousel {
   display: flex;
   align-items: center;
@@ -139,4 +147,30 @@
   background-color: white;
   border-radius: 4vh;
   border: #8d8d8d solid;
+}
+
+.direita {
+  align-self: flex-end;
+  padding: 3.3vh;
+  box-shadow: 2px -2px 0 1.8px rgb(0, 0, 0) inset;
+  border: solid transparent;
+  border-width: 0 0 2px 2px;
+  transform: rotate(225deg);
+  cursor: pointer;
+  opacity: 0.3;
+  transition: all 600ms ease-in-out;
+  margin-bottom: 120px;
+}
+
+.esquerda {
+  align-self: flex-end;
+  padding: 3.3vh;
+  box-shadow: 2px -2px 0 1.8px rgb(0, 0, 0) inset;
+  border: solid transparent;
+  border-width: 0 0 2px 2px;
+  transform: rotate(45deg);
+  cursor: pointer;
+  opacity: 0.3;
+  transition: all 600ms ease-in-out;
+  margin-bottom: 120px;
 }
