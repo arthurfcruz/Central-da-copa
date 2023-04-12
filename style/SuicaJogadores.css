@@ -61,7 +61,7 @@
     height: 20vh;
     width: 15vw;
     font-size: 6vh;
-    font-family:'Courier New', Courier, monospace;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .InfoBar {
@@ -131,4 +131,97 @@
     border-radius: 1vh;
     padding-left: 0.85vw;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.BarPlayers-Wrapper {
+    width: 70vw;
+    overflow-x: auto;
+    margin-top: 4vh;
+}
+
+.BarPlayers-Wrapper::-webkit-scrollbar {
+    display: none;
+}
+
+.BarPlayers {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 2vw;
+    height: 30vh;
+    width: 100vw;
+}
+
+.players {
+    display: flex;
+    flex-flow: column wrap;
+    height: 30vh;
+    width: 13vw;
+    border-radius: 2vh;
+    background-color: white;
+    justify-content: space-around;
+    align-items: center;
+    border: #D9D9D9 solid 2px;
+}
+
+/* .BreelEmbolo {
+    width: 10vw;
+}
+
+.HarisSeferović {
+    width: 7.7vw;
+}
+
+.ZekiAmdouni {
+    width: 7.7vw;
+}
+
+.RenatoSteffen {
+    width: 10.5vw;
+}
+
+.CedricItten {
+    width: 10.2vw;
+} */
+
+.text1 {
+    font-size: 3vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.text2 {
+    font-size: 2.5vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.span1 {
+    position: absolute;
+    padding: 3.3vh;
+    box-shadow: 2px -2px 0 1.8px rgb(0, 0, 0) inset;
+    border: solid transparent;
+    border-width: 0 0 2px 2px;
+    transform: rotate(225deg);
+    margin-left: 75vw;
+    margin-top: 47.5vh;
+    cursor: pointer;
+    opacity: 0.1;
+    transition: all 600ms ease-in-out;
+}
+
+.span2 {
+    position: absolute;
+    padding: 3.3vh;
+    box-shadow: 2px -2px 0 1.8px rgb(0, 0, 0) inset;
+    border: solid transparent;
+    border-width: 0 0 2px 2px;
+    transform: rotate(45deg);
+    margin-right: 75vw;
+    margin-top: 47.5vh;
+    cursor: pointer;
+    opacity: 0.1;
+    transition: all 600ms ease-in-out;
+}
+
+.span1:hover,
+.span2:hover {
+    opacity: 1;
 }
