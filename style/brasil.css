@@ -1,0 +1,211 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #042940;
+    height: 15vh;
+    line-height: 15vh;
+}
+
+.imagem {
+    display: flex;
+    justify-content: center;
+    margin-left: 3vw;
+    height: 15vh;
+}
+
+.imagem img {
+    height: 14vh;
+    width: 10vw;
+}
+
+.Links {
+    font-size: 28px;
+    margin-right: 10vw;
+}
+
+.Links a {
+    text-decoration: none;
+    color: white;
+    margin-right: 60px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    flex-flow: column nowrap;
+    height: 85vh;
+    width: 100vw;
+    background-color: #EEEEEE;
+}
+
+.navSelection {
+    display: grid;
+    grid-template-columns: 15vw 35vw 15vw;
+    grid-template-rows: 28vh;
+    height: 28vh;
+    width: 80vw;
+    gap: 7.5vw;
+}
+
+.left {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 15vw;
+    height: 28vh;
+}
+
+.right {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 15vw;
+    height: 28vh;
+}
+
+.button {
+    height: 7vh;
+    width: 12vw;
+    background-color: #042940;
+    border-radius: 2vh;
+    color: white;
+    font-size: 2.5vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+
+.InfoSoccerTeam {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imagemBrasil img {
+    height: 20vh;
+    width: 20vw;
+    border-radius: 2vh;
+}
+
+.optionsTeam {
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    width: 12vw;
+    height: 19vh;
+}
+
+.optionsTeam span {
+    font-size: 7vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 2.3vw;
+    margin-bottom: 1vh;
+}
+
+.butPlayers {
+    height: 5.5vh;
+    width: 100%;
+    background-color: #042940;
+    border-radius: 1.8vh;
+    color: white;
+    font-size: 2.5vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+}
+
+.ContentSpace {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 26vh;
+    width: 75vw;
+    background-color: white;
+    border: #D9D9D9 solid;
+    border-radius: 2vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.Oitavas {
+    margin-top: 3vh;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    width: 75vw;
+    height: 5vh;
+    font-size: 3.8vh;
+    padding-top: 1vh;
+}
+
+.qualifyingContent {
+    display: grid;
+    grid-template-columns: 20vw 20vw 20vw;
+    column-gap: 2.5vw;
+    align-items: center;
+    width: 65vw;
+    height: 20vh;
+}
+
+.qualifyingInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    height: 16vh;
+    width: 18vw;
+    border: #DBF227 1px solid;
+    background-color: #d9d9d9;
+    margin-bottom: 4vh;
+}
+
+.qualifyingInfo span {
+    font-size: 4.5vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.RightQualifying {
+    margin-left: 2vw;
+}
+
+.MidleContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    height: 20vh;
+}
+
+.SeeMore {
+    height: 5vh;
+    width: 100%;
+    margin-top: 125px ;
+    background-color: #042940;
+    color: white;
+    font-size: 2.5vh;
+    cursor: pointer;
+}
+
+.OitavasContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+    width: 65vw;
+}
+
+.OitavasInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    height: 16vh;
+    width: 18vw;
+    border: #DBF227 1px solid;
+    background-color: #d9d9d9;
+}
+
+.OitavasInfo span {
+    font-size: 4.5vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
