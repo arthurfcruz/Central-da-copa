@@ -16,6 +16,7 @@
 .imagem img {
     height: 14vh;
     width: 10vw;
+    border-radius: 1.5vh;
 }
 
 .Links {
@@ -134,9 +135,9 @@
 }
 
 .BarPlayers-Wrapper {
-    width: 70vw;
+    width: 56.3vw;
     overflow-x: auto;
-    margin-top: 4vh;
+    margin-top: 6vh;
 }
 
 .BarPlayers-Wrapper::-webkit-scrollbar {
@@ -193,35 +194,35 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.span1 {
+.spanRight {
     position: absolute;
     padding: 3.3vh;
     box-shadow: 2px -2px 0 1.8px rgb(0, 0, 0) inset;
     border: solid transparent;
     border-width: 0 0 2px 2px;
     transform: rotate(225deg);
-    margin-left: 75vw;
+    margin-left: 63vw;
     margin-top: 47.5vh;
     cursor: pointer;
     opacity: 0.1;
     transition: all 600ms ease-in-out;
 }
 
-.span2 {
+.spanLeft {
     position: absolute;
     padding: 3.3vh;
     box-shadow: 2px -2px 0 1.8px rgb(0, 0, 0) inset;
     border: solid transparent;
     border-width: 0 0 2px 2px;
     transform: rotate(45deg);
-    margin-right: 75vw;
+    margin-right: 64vw;
     margin-top: 47.5vh;
     cursor: pointer;
     opacity: 0.1;
     transition: all 600ms ease-in-out;
 }
 
-.span1:hover,
-.span2:hover {
+.spanRight:hover,
+.spanLeft:hover {
     opacity: 1;
 }
