@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portugal</title>
+    <link rel="stylesheet" href="/style/portugalJogadores.css">
+    <style>
+        html {
+            box-sizing: border-box;
+            font-size: 16px;
+        }
+
+        *,
+        *:before,
+        *:after {
+            box-sizing: inherit;
+        }
+
+        body,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p,
+        ol,
+        ul {
+            margin: 0;
+            padding: 0;
+            font-weight: normal;
+        }
+
+        ol,
+        ul {
+            list-style: none;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="header">
+        <div class="imagem">
+            <img src="../img/logo_semsite_semfundo (2).png" alt="Logo">
+        </div>
+        <div class="Links">
+            <a class="NavOptions" href="home.html">Home</a>
+            <a class="NavOptions" href="">Jogos</a>
+            <a class="NavOptions" href="">Cadastrar</a>
+        </div>
+    </section>
+    <section class="content">
+        <section class="gridContent">
+            <div class="box1">
+                <div><img src="../img/portugal.png" alt="">
+                    <div class="text">Atacantes</div>
+                </div>
+
+                <div class="text">Portugal</div>
+            </div>
+            <div class="box2">
+                <div class="subText">Filtrar por Idade</div>
+                <div class="minMax">
+                    <div class="flexLabel">
+                        <label for="idadeMin" class="labelBox">Idade Mínima</label>
+                        <input type="text" class="textBox" name="idadeMin" id="idadeMin" placeholder="Valor">
+                    </div>
+                    <div class="flexLabel">
+                        <label for="idadeMax" class="labelBox">Idade Máxima</label>
+                        <input type="text" class="textBox" name="idadeMax" id="idadeMax" placeholder="Valor">
+                    </div>
+                </div>
+            </div>
+            <div class="box3">
+                <div class="carousel">
+                    <div class="card">
+                        <img src="" alt="">
+                        <div class="nomeJogador"></div>
+                        <div class="IdadeJogador"></div>
+                    </div>
+                    <div class="card">
+                        <img src="" alt="">
+                        <div class="nomeJogador"></div>
+                        <div class="IdadeJogador"></div>
+                    </div>
+                    <div class="card">
+                        <img src="" alt="">
+                        <div class="nomeJogador"></div>
+                        <div class="IdadeJogador"></div>
+                    </div>
+
+
+                </div>
+
+            </div>
+        </section>
+    </section>
+
+    <script src="/dist/index.js"></script>
+</body>
+
+</html>
