@@ -1,0 +1,142 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #042940;
+  height: 15vh;
+  line-height: 15vh;
+}
+
+.imagem {
+  display: flex;
+  justify-content: center;
+  margin-left: 3vw;
+  height: 15vh;
+}
+
+.imagem img {
+  height: 14vh;
+  width: 10vw;
+}
+
+.Links {
+  font-size: 28px;
+  margin-right: 10vw;
+}
+
+.Links a {
+  text-decoration: none;
+  color: white;
+  margin-right: 60px;
+}
+
+/* --------------- */
+
+.content {
+  display: flex;
+  justify-content: center;
+  height: 85vh;
+  width: 100vw;
+  background-color: #eeeeee;
+}
+
+.gridContent {
+  display: grid;
+  grid-template-columns: 55vw auto;
+  grid-template-rows: 30vh auto;
+  height: 85vh;
+  width: 100vw;
+  gap: 20px;
+}
+
+.box1 {
+  display: flex;
+  grid-area: 1 / 1 / 1 / 1;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 70px;
+  text-align: center;
+}
+.box1 img {
+  border-radius: 2vh;
+  display: flex;
+}
+
+.box2 {
+  grid-area: 1 / 2 / 1 / 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.box3 {
+  display: flex;
+  flex-direction: column;
+  grid-area: 2 / 1 / 2 / span 2;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.text {
+  font-size: 50px;
+  color: black;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.subText {
+  font-size: 30px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.labelBox {
+  font-size: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.textBox {
+  width: 15vw;
+  height: 4vh;
+  background-color: black;
+  color: white;
+  font-size: 2vh;
+  border-radius: 0.5vh;
+  padding-left: 0.85vw;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.minMax {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.flexLabel {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.container {
+  width: 90vw;
+  height: 35vh;
+}
+.carousel-wrapper {
+  overflow-x: auto;
+}
+.carousel {
+  display: flex;
+  align-items: center;
+  flex-flow: row nowrap;
+  gap: 15px;
+  width: fit-content;
+}
+
+.card {
+  display: flex;
+  width: 300px;
+  height: 300px;
+  background-color: white;
+  border-radius: 4vh;
+  border: #8d8d8d solid;
+}
