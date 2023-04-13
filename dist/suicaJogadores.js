@@ -24,6 +24,6 @@ controls.forEach(control => {
             behavior: "smooth",
         });
         items[currentItem].classList.add("current-item");
-        // console.log('control', isleft, currentItem)
     });
 });
+//# sourceMappingURL=suicaJogadores.js.map
