@@ -55,10 +55,9 @@
     width: 15vw;
 }
 
-.imagemSuica img {
+.imagemSuica img{
     border-radius: 2vh;
 }
-
 .NomeSelecao {
     display: flex;
     justify-content: center;
@@ -86,7 +85,7 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.position a {
+.position a{
     text-decoration: none;
     color: black;
 }
@@ -144,7 +143,7 @@
 }
 
 .BarPlayers-Wrapper {
-    width: 56.3vw;
+    width: 28vw;
     overflow-x: auto;
     margin-top: 6vh;
 }
@@ -196,7 +195,7 @@
     border: solid transparent;
     border-width: 0 0 2px 2px;
     transform: rotate(225deg);
-    margin-left: 63vw;
+    margin-left: 40vw;
     margin-top: 47.5vh;
     cursor: pointer;
     opacity: 0.1;
@@ -210,7 +209,7 @@
     border: solid transparent;
     border-width: 0 0 2px 2px;
     transform: rotate(45deg);
-    margin-right: 64vw;
+    margin-right: 40vw;
     margin-top: 47.5vh;
     cursor: pointer;
     opacity: 0.1;
