@@ -15,6 +15,7 @@ let current_Position;
 let body;
 let items;
 let maxItens;
+let jogadoresFiltrados;
 
 posicao.addEventListener("click", () => {
   mudarPosicao();
@@ -48,7 +49,7 @@ fetch(apiEndPoint)
   })
   .then(function (data) {
     Jogadores(data);
-    addDisplay(data);
+    addDisplay(jogadores);
   });
 
 function Jogadores(data) {
@@ -57,9 +58,10 @@ function Jogadores(data) {
       jogadores.push(data[i]);
     }
   }
+  jogadoresFiltrados = jogadores;
 }
 
-function addDisplay(data) {
+function addDisplay(jogadores) {
   removerCards();
   verificaPosicao();
   for (let i = 0; i < jogadores.length; i++) {
@@ -111,7 +113,7 @@ function verificaPosicao() {
 }
 
 posicao?.addEventListener("click", () => {
-  addDisplay();
+  addDisplay(jogadores);
 });
 
 controls.forEach((control) => {
@@ -138,13 +140,29 @@ controls.forEach((control) => {
 });
 
 function filtrarPorIdade() {
-  const idadeMinima = document.getElementById("idadeMin").value;
-  const idadeMaxima = document.getElementById("idadeMax").value;
-  const jogadoresFiltrados = jogadores.filter((jogador) => {
-    const idade = parseInt(jogador.idade.match(/\d+/));
-    return idade >= idadeMinima && idade <= idadeMaxima;
-  });
-  addDisplay(jogadoresFiltrados);
+  let idadeMinima = document.getElementById("idadeMin").value;
+  let idadeMaxima = document.getElementById("idadeMax").value;
+
+  if (idadeMinima === "" && idadeMaxima >= 1) {
+    jogadoresFiltrados = jogadores.filter((jogador) => {
+      const idade = parseInt(jogador.idade.match(/\d+/));
+      return idade <= idadeMaxima;
+    });
+    addDisplay(jogadoresFiltrados);
+  } else if (idadeMaxima === "" && idadeMinima >= 1) {
+    jogadoresFiltrados = jogadores.filter((jogador) => {
+      const idade = parseInt(jogador.idade.match(/\d+/));
+      return idade >= idadeMinima;
+    });
+    addDisplay(jogadoresFiltrados);
+  } else if (idadeMaxima === "" && idadeMinima === "") addDisplay(jogadores);
+  else {
+    jogadoresFiltrados = jogadores.filter((jogador) => {
+      const idade = parseInt(jogador.idade.match(/\d+/));
+      return idade >= idadeMinima && idade <= idadeMaxima;
+    });
+    addDisplay(jogadoresFiltrados);
+  }
 }
 btnFiltrar?.addEventListener("click", () => {
   filtrarPorIdade();
