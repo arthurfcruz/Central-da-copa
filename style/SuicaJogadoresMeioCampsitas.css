@@ -143,7 +143,7 @@
 }
 
 .BarPlayers-Wrapper {
-    width:62vw;
+    width:56.3vw;
     overflow-x: auto;
     margin-top: 6vh;
 }
@@ -174,8 +174,8 @@
 
 
 .imagemJogador {
-    height: 170px;
-    width: 170px;
+    height: 180px;
+    width: 180px;
 }
 
 .text1 {
@@ -195,7 +195,7 @@
     border: solid transparent;
     border-width: 0 0 2px 2px;
     transform: rotate(225deg);
-    margin-left: 69vw;
+    margin-left: 63vw;
     margin-top: 47.5vh;
     cursor: pointer;
     opacity: 0.1;
@@ -209,7 +209,7 @@
     border: solid transparent;
     border-width: 0 0 2px 2px;
     transform: rotate(45deg);
-    margin-right: 69vw;
+    margin-right: 64vw;
     margin-top: 47.5vh;
     cursor: pointer;
     opacity: 0.1;
