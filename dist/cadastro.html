@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <link rel="stylesheet" href="../style/home.css">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="../style/cadastro.css">
     <style>
         html {
             box-sizing: border-box;
@@ -58,38 +58,37 @@
         </div>
     </section>
     <div class="content">
-        <div class="cards">
-            <a href="brasil.html">
-                <div class="card">
-                    <div class="img">
-                        <img src="../img/brasil.png" alt="imgBrasil">
-                    </div>
+        <h1>Cadastro de Jogador</h1>
 
-                    <span>Brasil</span>
-                </div>
-            </a>
+        <div class="form-container">
+            <form>
+                <label for="imagem">Link da Imagem:</label>
+                <input type="text" id="imagem" name="imagem" required>
 
-            <a href="./portugal.html">
-                <div class="card">
-                    <img src="../img/portugal.png" alt="imgPortugal">
-                    <span>Portugal</span>
-                </div>
-            </a>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
 
-            <a href="Suica.html">
-                <div class="card">
-                    <img src="../img/suica.png" alt="imgSuica">
-                    <span>Suiça</span>
-                </div>
-            </a>
+                <label for="idade">Idade:</label>
+                <input type="text" id="idade" name="idade" required>
 
+                <label for="posicao">Posição:</label>
+                <select id="posicao" name="posicao" required>
+                    <option value="">Selecione...</option>
+                    <option value="atacante">Atacante</option>
+                    <option value="meio-campista">Meio-Campista</option>
+                    <option value="defensor">Defensor</option>
+                    <option value="goleiro">Goleiro</option>
+                </select>
+
+                <label for="selecao">Seleção:</label>
+                <input type="text" id="selecao" name="selecao" required>
+
+                <input type="submit" value="Cadastrar">
+            </form>
         </div>
     </div>
-    <section class="footnote">
-        <h4>@Todos os direitos reservados a Leonardo Silva, Arthur Felix e Vinicius Victor</h4>
-    </section>
 
-    <script src="/dist/home.js"></script>
+    <script src="../dist/cadastro.js"></script>
 </body>
 
 </html>
