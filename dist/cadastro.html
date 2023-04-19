@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="../style/cadastro.css">
+    <style>
+        html {
+            box-sizing: border-box;
+            font-size: 16px;
+        }
+
+        *,
+        *:before,
+        *:after {
+            box-sizing: inherit;
+        }
+
+        body,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p,
+        ol,
+        ul {
+            margin: 0;
+            padding: 0;
+            font-weight: normal;
+        }
+
+        ol,
+        ul {
+            list-style: none;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="header">
+        <div class="imagem">
+            <img src="../img/logo_semsite_semfundo (2).png" alt="Logo">
+        </div>
+        <div class="Links">
+            <a class="NavOptions" href="../dist/home.html">Home</a>
+            <a class="NavOptions" href="../dist/brasil.html">Jogos</a>
+            <a class="NavOptions" href="../dist/cadastro.html">Cadastrar</a>
+        </div>
+    </section>
+    <div class="content">
+        <h1>Cadastro de Jogador</h1>
+
+        <div class="form-container">
+            <form id="formCadastro">
+                <label for="imagem">Link da Imagem:</label>
+                <input type="text" id="imagem" name="imagem" required>
+
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="idade">Idade:</label>
+                <input type="text" id="idade" name="idade" required>
+
+                <label for="posicao">Posição:</label>
+                <select id="posicao" name="posicao" required>
+                    <option value="">Selecione...</option>
+                    <option value="atacante">Atacante</option>
+                    <option value="meio-campista">Meio-Campista</option>
+                    <option value="defensor">Defensor</option>
+                    <option value="goleiro">Goleiro</option>
+                </select>
+
+                <label for="selecao">Seleção:</label>
+                <input type="text" id="selecao" name="selecao" required>
+
+                <input type="submit" id="botaoCadastro" value="Cadastrar">
+            </form>
+        </div>
+    </div>
+
+    <script src="../dist/cadastro.js"></script>
+</body>
+
+</html>

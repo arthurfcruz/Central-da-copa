@@ -1,0 +1,96 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #042940;
+    height: 15vh;
+    line-height: 15vh;
+}
+
+.imagem {
+    display: flex;
+    justify-content: center;
+    margin-left: 3vw;
+    height: 15vh;
+}
+
+.imagem img {
+    height: 14vh;
+    width: 10vw;
+}
+
+.Links {
+    font-size: 28px;
+    margin-right: 10vw;
+}
+
+.Links a {
+    text-decoration: none;
+    color: white;
+    margin-right: 60px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    height: 85vh;
+    width: 100vw;
+    background-color: #EEEEEE;
+}
+
+
+h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    color: #042940;
+    font-size: 4.5vh;
+    font-family:cursive;
+}
+
+.form-container {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #042940;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 1vh;
+}
+
+input[type="text"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #042940;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+input[type="submit"] {
+    background-color: #2c3e50;
+    color: #e4e4e4;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 2vh;
+}
+
+input[type="submit"]:hover {
+    background-color: #EEEEEE;
+    color: #042940;
+    transition: all 0.8s;
+}
+
+label {
+    color: #EEEEEE;
+    font-size: 2vh;
+}
