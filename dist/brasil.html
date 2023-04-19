@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <link rel="stylesheet" href="/style/brasil.css">
+    <title>Brasil</title>
+    <link rel="stylesheet" href="../style/brasil.css">
     <style>
         html {
             box-sizing: border-box;
@@ -61,7 +61,7 @@
         <div class="navSelection">
             <div class="buttons left">
                 <button class="button but1" type="button">
-                    Anterior
+                    <a href="Suica.html">Anterior</a> 
                 </button>
             </div>
             <div class="InfoSoccerTeam">
@@ -70,7 +70,7 @@
                 </div>
                 <div class="optionsTeam">
                     <span>Brasil</span>
-                    <a href="">
+                    <a href="brasilJogadores.html">
                         <button class="butPlayers" type="button">
                             Ver Jogadores
                         </button>
@@ -79,7 +79,7 @@
             </div>
             <div class="buttons right">
                 <button class="button but2" type="button">
-                    Próximo
+                    <a href="portugal.html">Próximo</a>
                 </button>
             </div>
         </div>
@@ -87,8 +87,8 @@
             <div class="title">Classificatórias</div>
             <div class="qualifyingContent">
                 <div class="qualifyingInfo">
-                    <span>Brasil x Servia</span>
-                    <span>2 x 0</span>
+                    <span class="text1">Brasil x Sérvia</span>
+                    <span class="text2">2 x </span>
                 </div>
                 <div class="MidleContent">
                     <button class="SeeMore" type="button">
@@ -96,11 +96,29 @@
                     </button>
                 </div>
                 <div class="qualifyingInfo RightQualifying">
-                    <span>Camaroes x Brasil</span>
+                    <span class="text1">Camarões x Brasil</span>
+                    <span class="text2">1 x 0</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="hiddenDivision">
+            <div class="contentHidden">
+                <div class="qualifyingHidden">
+                    <span>Brasil x Sérvia</span>
+                    <span>2 x 0</span>
+                </div>
+                <div class="qualifyingHidden">
+                    <span>Brasil x Suica</span>
+                    <span>1 x 0 </span>
+                </div>
+                <div class="qualifyingHidden">
+                    <span>Camarões x Brasil</span>
                     <span>1 x 0</span>
                 </div>
             </div>
         </div>
+
         <div class=" ContentSpace Oitavas">
             <div class="title">Oitavas de Final</div>
             <div class="OitavasContent">
@@ -110,10 +128,15 @@
                 </div>
             </div>
         </div>
-    </div>
-    
 
-    <script src="/style/brasil.css"></script>
+        <div class="buttonExit">
+            <button class="SeeLess" type="button">
+                Ver Menos
+            </button>
+        </div>
+
+    </div>
+    <script src="brasil.js"></script>
 </body>
 
 </html>
