@@ -8,7 +8,7 @@ fetch('https://apigenerator.dronahq.com/api/U6xEuHqk/dataJogadores')
     let imagensJogadores = document.getElementsByClassName('imagemTS');
     console.log(imagensJogadores, textNome, textIdade);
     let index2 = 0;
-    for (let index = 0; index < 23; index++) {
+    for (let index = 23; index < 51; index++) {
         if (data[index].selecao == "Brasil" && data[index].posicao == "goleiro") {
             imagensJogadores[index2].src = data[index].imagem;
             textNome[index2].innerHTML = data[index].nome;
